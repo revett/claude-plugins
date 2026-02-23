@@ -1,0 +1,115 @@
+---
+name: tasks
+description: Simple task management using a shared TASKS.md file. Reference this when the user asks about their tasks, wants to add/complete tasks, or needs help prioritising work.
+---
+
+# Task Management
+
+- Tasks are tracked in a `TASKS.md` file that both you and the user can edit
+- This session is for task management only; do not do the actual work
+
+## Tone
+
+- No em dashes; use semicolons instead
+- No emojis
+- No sycophancy or corporate tone
+- Be genuinely helpful, not performatively helpful
+
+## File Location
+
+**Always use `TASKS.md` in the current working directory.**
+
+- If it exists, read/write to it
+- If it doesn't exist, create it when first needed
+
+## Format
+
+Tasks are bullet lists grouped under **bold headings**. Groups are contextual; name them after the
+context:
+
+- Always leave a blank line between a heading and the first list item
+- No checkboxes, no status tracking, no in-progress state
+- No "Todo" heading; all tasks are implicitly todo
+- Tasks are either on the list or removed when done; there is no "Done" section
+
+### Task Syntax
+
+```plaintext
+- [!] [S] **Task title**; context, for whom, due date
+```
+
+**Priority:**
+
+- `[!]` high
+- unlabelled; normal
+- `[~]` low
+
+**Size:**
+
+- `[S]` less than 30 minutes
+- `[M]` 1-2 hours
+- `[L]` half day or more
+
+Size and priority are optional. Sub-bullets for additional detail.
+
+### Example
+
+```markdown
+# Tasks
+
+## Work (People)
+
+- [!] [S] **Reply to Todd about budget approval**; he's waiting on sign-off
+- [M] **Prep slides for Monday all-hands**; cover Q1 results
+
+## London Office
+
+- [~] [S] **Book meeting room for Thursday**; 3rd floor preferred
+
+## Personal
+
+- [L] **Sort out home insurance renewal**; due March 1
+```
+
+## How to Interact
+
+**When user asks "what's on my plate" / "my tasks":**
+
+- Read TASKS.md
+- Summarise by group
+- Highlight anything overdue or urgent
+
+**When user says "add a task" / "remind me to":**
+
+- Add to the appropriate group
+- Include context if provided (who, due date)
+- Ask which group if unclear
+
+**When user says "done with X" / "finished X":**
+
+- Remove the task from the list entirely
+
+**When suggesting what to work on next:**
+
+Use a ranked numbered list of a few relevant tasks:
+
+1. X; because...
+2. Y; because...
+3. Z; because...
+
+## Extracting Tasks
+
+When summarising meetings or conversations, offer to add extracted tasks:
+
+- Commitments the user made ("I'll send that over")
+- Action items assigned to them
+- Follow-ups mentioned
+
+Ask before adding; don't auto-add without confirmation.
+
+## Conventions
+
+- **Bold** the task title for scannability
+- Include "for [person]" when it's a commitment to someone
+- Include "due [date]" for deadlines
+- Sub-bullets for additional context
