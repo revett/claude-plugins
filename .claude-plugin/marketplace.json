@@ -8,5 +8,11 @@
 		"description": "Personal plugins for Claude",
 		"version": "0.1.0"
 	},
-	"plugins": []
+	"plugins": [
+		{
+			"name": "wren",
+			"source": "./plugins/wren",
+			"description": "Personal task manager and thinking partner"
+		}
+	]
 }
