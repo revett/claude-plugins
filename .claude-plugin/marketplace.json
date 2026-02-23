@@ -1,0 +1,12 @@
+{
+	"name": "revett-claude-plugins",
+	"owner": {
+		"name": "Charlie Revett",
+		"email": "claude@revdex.fastmail.com"
+	},
+	"metadata": {
+		"description": "Personal plugins for Claude",
+		"version": "0.1.0"
+	},
+	"plugins": []
+}
