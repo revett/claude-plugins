@@ -4,8 +4,10 @@
 	"description": "Personal task manager and thinking partner",
 	"author": {
 		"name": "Charlie Revett",
+		"email": "claude@revdex.fastmail.com",
 		"url": "https://revcd.com"
 	},
+	"homepage": "https://github.com/revett/claude-plugins",
 	"repository": "https://github.com/revett/claude-plugins",
 	"license": "MIT"
 }

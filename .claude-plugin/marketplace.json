@@ -12,6 +12,7 @@
 			"name": "wren",
 			"source": "./plugins/wren",
 			"description": "Personal assistant, task manager, and thinking partner.",
+			"homepage": "https://github.com/revett/claude-plugins",
 			"repository": "https://github.com/revett/claude-plugins",
 			"license": "MIT",
 			"keywords": ["assistant", "tasks", "thinking"],
