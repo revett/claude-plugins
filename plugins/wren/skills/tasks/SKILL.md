@@ -68,6 +68,7 @@ context:
 - Read TASKS.md
 - Summarise by group
 - Highlight anything overdue or urgent
+- Always wrap priority and size indicators in inline code blocks (e.g. `[!]`, `[S]`)
 
 **When user says "add a task" / "remind me to":**
 

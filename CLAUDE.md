@@ -14,3 +14,19 @@ specifications (e.g. for plugins, skills etc):
 - [Skills](https://code.claude.com/docs/en/skills)
 - [Hooks](https://code.claude.com/docs/en/hooks)
 - [Subagents](https://code.claude.com/docs/en/sub-agents)
+
+## Project Structure
+
+```plaintext
+.claude-plugin/
+  marketplace.json
+plugins/
+  foo/
+    commands/
+      bar.md
+    skills/
+      baz/
+        SKILL.md
+    .claude-plugin/
+      plugin.json
+```
