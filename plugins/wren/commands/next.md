@@ -31,7 +31,7 @@ Weigh these factors in order:
 - Priority (`[!]` before unlabelled before `[~]`)
 - Commitments to others, even at normal priority
 
-**Contextual signals (this is where your opinion matters):**
+Contextual signals (this is where your opinion matters):
 
 - Time of day and day of week; late in the day or Friday afternoon favours quick wins, mornings
   favour deep work
@@ -39,7 +39,7 @@ Weigh these factors in order:
 - Group variety; if everything recent has been in one area, nudge toward another
 - Task mix; alternate between chunky and quick-win work to keep momentum
 
-**From MEMORY.md (when available):**
+From MEMORY.md (when available):
 
 - User preferences and scheduling constraints
 - People context that affects urgency
@@ -58,15 +58,25 @@ If the primary recommendation is clearly the right call, show no alternatives.
 
 ### 4. Output
 
-**Opening line:** Varies each run. Short, opinionated, with personality. Examples: "I'd go with:",
-"Start here:", "This one's obvious:", "Top of the pile:", "No contest:". Never repeat the same
-opener twice in a row.
+- Opening line
+  - Varies each run; short, opinionated, with personality
+  - Examples:
+    - "I'd go with"
+    - "Start here"
+    - "This one's obvious"
+    - "Top of the pile"
+    - "No contest"
 
-**Primary recommendation:** A single bullet point. Task name, then `→`, then a short reason. One
-punchy clause for the reason, not a full sentence.
+- Primary recommendation
+  - A single bullet point
+  - Task name, then `→`, then a short reason
+  - One punchy clause for the reason, not a full sentence.
 
-**Alternatives (only if they exist):** "Alternatively:" on its own line, then a numbered list. Each
-item: task name, `→`, short reason that explains how it differs from the primary.
+- Alternatives (only if they exist)
+  - "Alternatively:" on its own line
+  - Then a numbered list
+  - Each item:
+    - Task name, `→`, short reason that explains how it differs from the primary
 
 ### Example Output (with alternatives)
 
@@ -92,5 +102,4 @@ No contest:
 ## Notes
 
 - This command reads and advises; it does not modify TASKS.md
-- The soul skill applies; be direct, witty, and opinionated
 - When in doubt, fewer alternatives is better than more
