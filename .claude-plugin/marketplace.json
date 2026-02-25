@@ -9,7 +9,8 @@
 	"plugins": [
 		{
 			"name": "wren",
-			"source": "./plugins/wren"
+			"source": "./plugins/wren",
+			"description": "🐦‍⬛ Personal assistant, task manager, and thinking partner."
 		}
 	]
 }
