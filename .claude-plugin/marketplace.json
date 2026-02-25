@@ -1,7 +1,8 @@
 {
 	"name": "revett-claude-plugins",
 	"owner": {
-		"name": "Charlie Revett"
+		"name": "Charlie Revett",
+		"email": "claude@revdex.fastmail.com"
 	},
 	"metadata": {
 		"description": "Collection of personal plugins for Claude"
@@ -10,7 +11,11 @@
 		{
 			"name": "wren",
 			"source": "./plugins/wren",
-			"description": "Personal assistant, task manager, and thinking partner."
+			"description": "Personal assistant, task manager, and thinking partner.",
+			"repository": "https://github.com/revett/claude-plugins",
+			"license": "MIT",
+			"keywords": ["assistant", "tasks", "thinking"],
+			"tags": ["assistant", "tasks", "thinking"]
 		}
 	]
 }
