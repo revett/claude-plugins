@@ -23,7 +23,7 @@ context:
 ### Task Syntax
 
 ```plaintext
-- [!] [S] **Task title**; context, for whom, due date
+- [!][S] Task title; context, for whom, due date
 ```
 
 **Priority:**
@@ -38,7 +38,9 @@ context:
 - `[M]` 1-2 hours
 - `[L]` half day or more
 
-Size and priority are optional. Include "for [person]" for commitments and "due [date]" for deadlines. Sub-bullets for additional detail.
+- Size and priority are optional
+- Include "for [person]" for commitments and "due [date]" for deadlines
+- Sub-bullets are not allowed
 
 ### Example
 
@@ -47,16 +49,16 @@ Size and priority are optional. Include "for [person]" for commitments and "due 
 
 ## Work (People)
 
-- [!] [S] **Reply to Todd about budget approval**; he's waiting on sign-off
-- [M] **Prep slides for Monday all-hands**; cover Q1 results
+- [!][S] Reply to Todd about budget approval; he's waiting on sign-off
+- [M] Prep slides for Monday all-hands; cover Q1 results
 
 ## London Office
 
-- [~] [S] **Book meeting room for Thursday**; 3rd floor preferred
+- [~][S] Book meeting room for Thursday; 3rd floor preferred
 
 ## Personal
 
-- [L] **Sort out home insurance renewal**; due March 1
+- [L] Sort out home insurance renewal; due March 1
 ```
 
 ## How to Interact
@@ -72,6 +74,8 @@ Size and priority are optional. Include "for [person]" for commitments and "due 
 - Add to the appropriate group
 - Include context if provided (who, due date)
 - Ask which group if unclear
+- Always assign a best guess priority based on context
+- Don't leave everything at normal; make a call, the user can always correct it
 
 **When user says "done with X" / "finished X":**
 
@@ -84,6 +88,14 @@ Use a ranked numbered list of a few relevant tasks:
 1. X; because...
 2. Y; because...
 3. Z; because...
+
+## Reshaping the List
+
+When adding or completing tasks, treat the whole file as alive:
+
+- Rename, merge, or remove groups as the shape of work changes
+- Update other tasks' titles, sizes, or priorities if new context warrants it
+- Don't ask permission for housekeeping; just keep the list clean and current
 
 ## Extracting Tasks
 
