@@ -26,3 +26,6 @@ Personal assistant, task manager, and thinking partner. Based heavily on Anthrop
 - [ ] Weather skill for context
 - [ ] iCal skill for events and availability
 - [ ] Cron support
+- [ ] Done history (learn how I complete tasks and my behaviour patterns)
+- [ ] Investigate if `MEMORY.md` is needed / what needs to added to it
+- [ ] Better follow on messages (e.g. "Completed tasks; here's what to next...")
