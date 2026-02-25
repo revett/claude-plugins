@@ -1,18 +1,15 @@
 {
 	"name": "revett-claude-plugins",
 	"owner": {
-		"name": "Charlie Revett",
-		"email": "claude@revdex.fastmail.com"
+		"name": "Charlie Revett"
 	},
 	"metadata": {
-		"description": "Personal plugins for Claude",
-		"version": "0.1.0"
+		"description": "Collection of personal plugins for Claude"
 	},
 	"plugins": [
 		{
 			"name": "wren",
-			"source": "./plugins/wren",
-			"description": "Personal task manager and thinking partner"
+			"source": "./plugins/wren"
 		}
 	]
 }

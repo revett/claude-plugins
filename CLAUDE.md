@@ -1,6 +1,6 @@
 # CLAUDE.md
 
-This repo is a Claude Code plugin marketplace (`revett-claude-plugins`).
+This repo is a personal collection of Claude Code plugins as a marketplace.
 
 ## Documentation
 
