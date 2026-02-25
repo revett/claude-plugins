@@ -14,3 +14,5 @@ Collection of personal plugins for Claude Code & Cowork.
 - [ ] `/next` → Command on what to work on next
 - [ ] `/today` → Command for a plan on what to work on today
 - [ ] `/update` → Command to keep tasks and memory current
+- [ ] Explain `SOUL.md`
+- [ ] Include a base `SOUL.md`, and then allow workspace level personalisation via overrides
