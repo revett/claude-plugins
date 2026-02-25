@@ -11,6 +11,5 @@ Collection of personal plugins for Claude Code & Cowork.
 ### TODO
 
 - [ ] `/list` → Command to list all tasks
-- [ ] `/next` → Command on what to work on next
 - [ ] `/today` → Command for a plan on what to work on today
-- [ ] `/update` → Command to keep tasks and memory current
+- [ ] `/update` → Command to keep tasks and memory current, including incoming changes to skills
