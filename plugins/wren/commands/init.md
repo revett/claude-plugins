@@ -13,8 +13,7 @@ Initialise the task and memory systems.
 Check the working directory for:
 
 - `TASKS.md` → Task list
-- `memory/hot.md` → Working memory
-- `memory/cold.md` → Full knowledge base
+- `MEMORY.md` → Memory file
 
 ### 2. Create What's Missing
 
@@ -22,11 +21,7 @@ Check the working directory for:
 
 - Create it with the standard template (see `tasks` skill)
 
-**If `memory/hot.md` doesn't exist:**
-
-- Create it with empty section headers (see `memory` skill for format)
-
-**If `memory/cold.md` doesn't exist:**
+**If `MEMORY.md` doesn't exist:**
 
 - Create it with empty section headers (see `memory` skill for format)
 
@@ -36,7 +31,7 @@ Summarise what happened in plain language. Example for a fresh setup:
 
 ```plaintext
 All set.
-I've created TASKS.md and the memory files for you.
+I've created TASKS.md and MEMORY.md for you.
 What needs doing?
 ```
 

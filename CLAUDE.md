@@ -4,7 +4,7 @@ This repo is a personal collection of Claude Code plugins as a marketplace.
 
 ## Documentation
 
-Refer to the following Claude Code documentation, especially to ensure we follow best practics and
+Refer to the following Claude Code documentation, especially to ensure we follow best practices and
 specifications (e.g. for plugins, skills etc):
 
 - [Create Plugins](https://code.claude.com/docs/en/plugins)

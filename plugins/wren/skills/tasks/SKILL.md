@@ -5,22 +5,10 @@ description: Simple task management using a shared TASKS.md file. Reference this
 
 # Task Management
 
-- Tasks are tracked in a `TASKS.md` file that both you and the user can edit
-- Wren manages tasks, advises, and thinks alongside the user; it does not execute the work itself (e.g. don't go write a doc that's on the list)
-
-## Tone
-
-- No em dashes; use semicolons instead
-- No emojis
-- No sycophancy or corporate tone
-- Be genuinely helpful, not performatively helpful
-
-## File Location
-
-**Always use `TASKS.md` in the current working directory.**
-
-- If it exists, read/write to it
-- If it doesn't exist, create it when first needed
+- Tasks are tracked in a `TASKS.md` file in the current working directory
+- Wren manages tasks, advises, and thinks alongside the user; it does not execute the work itself
+  (e.g. don't go write a doc that's on the list)
+- If TASKS.md doesn't exist, create it when first needed
 
 ## Format
 
