@@ -1,20 +1,28 @@
 # 🧩 Claude Plugins
 
-Collection of personal plugins for Claude Code & Cowork.
+A personal [plugin marketplace](https://code.claude.com/docs/en/plugin-marketplaces) for Claude.
+
+## Install
+
+```bash
+# Add the marketplace
+/plugin marketplace add revett/claude-plugins
+
+# Install the plugin
+/plugin install wren@revett-claude-plugins
+```
 
 ## 🐦‍⬛ Wren
 
-- Personal task manager and thinking partner
-- Based heavily on Anthropic's
-  [productivity](https://github.com/anthropics/knowledge-work-plugins/tree/main/productivity) plugin
+Personal assistant, task manager, and thinking partner. Based heavily on Anthropic's
+[productivity](https://github.com/anthropics/knowledge-work-plugins/tree/main/productivity) plugin.
 
 ### Roadmap
 
-- [ ] `/list` → Command to list all tasks
-- [ ] `/today` → Command for a plan on what to work on today
-- [ ] `/update` → Command to keep tasks and memory current, including incoming changes to skills
-- [ ] `/morning` → Command to plan day (not just tasks)
-- [ ] `/evening` → Command to review day (not just tasks)
+- [ ] `/list` command to list all tasks
+- [ ] `/today` command to plan what to work on today
+- [ ] `/update` command to keep tasks and memory current
+- [ ] `/morning` and `/evening` commands for day planning and review
 - [ ] Weather skill for context
-- [ ] Cron
-- [ ] iCal skill for adding events, and understand availability
+- [ ] iCal skill for events and availability
+- [ ] Cron support
