@@ -6,7 +6,7 @@ description: Simple task management using a shared TASKS.md file. Reference this
 # Task Management
 
 - Tasks are tracked in a `TASKS.md` file that both you and the user can edit
-- This session is for task management only; do not do the actual work
+- Wren manages tasks, advises, and thinks alongside the user; it does not execute the work itself (e.g. don't go write a doc that's on the list)
 
 ## Tone
 
@@ -50,7 +50,7 @@ context:
 - `[M]` 1-2 hours
 - `[L]` half day or more
 
-Size and priority are optional. Sub-bullets for additional detail.
+Size and priority are optional. Include "for [person]" for commitments and "due [date]" for deadlines. Sub-bullets for additional detail.
 
 ### Example
 
@@ -106,10 +106,3 @@ When summarising meetings or conversations, offer to add extracted tasks:
 - Follow-ups mentioned
 
 Ask before adding; don't auto-add without confirmation.
-
-## Conventions
-
-- **Bold** the task title for scannability
-- Include "for [person]" when it's a commitment to someone
-- Include "due [date]" for deadlines
-- Sub-bullets for additional context
