@@ -23,16 +23,16 @@ context:
 ### Task Syntax
 
 ```plaintext
-- [!][S] Task title; context, for whom, due date
+- [!] Task title; context, for whom, due date [S]
 ```
 
-**Priority:**
+**Priority (start of line):**
 
 - `[!]` high
 - unlabelled; normal
 - `[~]` low
 
-**Size:**
+**Size (end of line):**
 
 - `[S]` less than 30 minutes
 - `[M]` 1-2 hours
@@ -49,16 +49,16 @@ context:
 
 ## Work (People)
 
-- [!][S] Reply to Todd about budget approval; he's waiting on sign-off
-- [M] Prep slides for Monday all-hands; cover Q1 results
+- [!] Reply to Todd about budget approval; he's waiting on sign-off [S]
+- Prep slides for Monday all-hands; cover Q1 results [M]
 
 ## London Office
 
-- [~][S] Book meeting room for Thursday; 3rd floor preferred
+- [~] Book meeting room for Thursday; 3rd floor preferred [S]
 
 ## Personal
 
-- [L] Sort out home insurance renewal; due March 1
+- Sort out home insurance renewal; due March 1 [L]
 ```
 
 ## How to Interact
